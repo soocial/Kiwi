@@ -36,7 +36,7 @@
 #pragma mark -
 #pragma mark Getting Blocks
 
-@property (nonatomic, readonly) KWVoidBlock block;
+@property (nonatomic, readonly, copy) KWVoidBlock block;
 
 @end
 

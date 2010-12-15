@@ -13,7 +13,11 @@
 #pragma mark -
 #pragma mark Properties
 
+#if GCON
+@property (nonatomic, readonly, copy) KWVoidBlock block;
+#else
 @property (nonatomic, readonly, assign) KWVoidBlock block;
+#endif //IF GCON
 
 @end
 
